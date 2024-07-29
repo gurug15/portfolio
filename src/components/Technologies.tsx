@@ -26,8 +26,16 @@ const iconVariants = (duration:number)=>({
 export default function Technologies() {
   return (
     <div className="border-b border-neutral-800 pb-24">
-        <h1 className="my-20 text-center text-4xl">Technologies</h1>
-        <div className="flex flex-wrap items-center justify-center gap-4">
+        <motion.h1 
+        whileInView={{opacity:1,y:0}}
+        animate={{opacity:0,y:-50}}
+        transition={{duration:0.7,delay:.1}}
+        className="my-20 text-center text-4xl">Technologies</motion.h1>
+        <motion.div 
+        whileInView={{opacity:1,x:0}}
+        animate={{opacity:0,x:-100}}
+        transition={{duration:1, delay:0.4}}
+        className="flex flex-wrap items-center justify-center gap-4">
               <motion.div 
               variants={iconVariants(2)}
               initial="initial"
@@ -113,7 +121,7 @@ export default function Technologies() {
                   <LiaJenkins className="text-6xl text-red-600"/>
               </motion.div>
               
-        </div>
+        </motion.div>
     </div>
   )
 }

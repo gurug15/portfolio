@@ -21,6 +21,7 @@ export const CERTIFICATES = [
     company : "AWS",
     description: `Obtained the AWS Solutions Architect Associate certification, demonstrating proficiency in designing and deploying scalable systems on AWS.`,
     technologies: ["AWS","S3","EC2","IAM","VPC","RDS","Route53","SNS","Etc.."],
+    link: "https://www.credly.com/badges/94cdd2fc-156c-41d2-9795-aadc8468ce8c/linked_in_profile"
   },
   {
     year: "Jul 2024",
@@ -29,6 +30,7 @@ export const CERTIFICATES = [
     company: "100xDevs",
     description: `Gaining expertise in front-end and back-end technologies. Demonstrated proficiency in MERN stack and Next.js, and server-side programming.`,
     technologies: ["React", "Nodejs", "Express", "MongoDB", "Next.Js", "PostgreSQL"],
+    link: "https://www.linkedin.com/posts/guru-gastgar-67a125217_achievementunlocked-100xdevs-activity-7203102826871402496-Yi4Y?utm_source=share&utm_medium=member_desktop"
   },
   {
     year: "May 2024",
@@ -37,6 +39,7 @@ export const CERTIFICATES = [
     company: "Ethan's Tech",
     description: `Completed a course on DevOps tools, focusing on continuous integration, continuous delivery, and infrastructure as code using tools like Jenkins, Docker, and Terraform.`,
     technologies: ["Jenkins", "Docker", "Terraform","Ansible","Kubernetes","Maven","Nexus"],
+    link: "https://www.linkedin.com/posts/guru-gastgar-67a125217_devops-certification-softwareengineering-activity-7196983430524358657-4X_3?utm_source=share&utm_medium=member_desktop"
   },
 ];
 
@@ -47,6 +50,7 @@ export const PROJECTS = [
     description:
       "Developed a CI/CD pipeline using Jenkins, Maven, Docker, SonarQube, and Terraform. Ensured seamless software delivery from code to cloud infrastructure. Integrated SonarQube for code quality analysis, enhancing reliability. Leveraged Terraform for automated infrastructure provisioning, optimizing resource management. Demonstrated proficiency in modern DevOps practices and tools.",
     technologies: ["Jenkins", "Maven", "Docker", "SonarQube", "Terraform"],
+    link: "https://github.com/GURUGASTGAR/devops-terraform-ansible-pipeline.git"
   },
   {
     title: "Medium Blog App Clone",
@@ -54,6 +58,7 @@ export const PROJECTS = [
     description:
       "Developed a responsive UI using React and TypeScript. Built a serverless backend with Cloudflare Workers and Hono. Designed and managed the PostgreSQL database with Prisma ORM. Enhanced database performance with Prisma Accelerate. Implemented secure authentication and authorization using JWT.",
     technologies: ["React", "TypeScript", "Cloudflare Workers", "Hono", "PostgreSQL", "Prisma", "Prisma Accelerate"],
+    link:"https://github.com/GURUGASTGAR/medium-project.git"
   },
   {
     title: "Threads App Clone",
@@ -61,6 +66,7 @@ export const PROJECTS = [
     description:
       "Developed a full-stack web application using Next.js. Integrated user authentication with NextAuth.js. Employed PostgreSQL and Prisma for database management. Utilized Shardcn for building custom UI elements. Styled the user interface with Tailwind CSS.",
     technologies: ["Next.js", "NextAuth.js", "PostgreSQL", "Prisma", "Tailwind CSS"],
+    link: "https://github.com/GURUGASTGAR/Threads.git"
   },
   {
     title: "Automated Blog App Deployment",
@@ -68,6 +74,7 @@ export const PROJECTS = [
     description:
       "Automated deployment of a blog app using Jenkins, Ansible, Docker, and Cloudflare Workers. Configured Jenkins CI/CD pipeline for continuous integration and deployment. Developed Ansible playbooks for server provisioning and configuration. Containerized the frontend and integrated a serverless backend with Cloudflare Workers.",
     technologies: ["Jenkins", "Ansible", "Docker", "Cloudflare Workers"],
+    link: "https://github.com/GURUGASTGAR/medium-project.git"
   },
   {
     title: "DevOps Project: Register App",
@@ -75,6 +82,7 @@ export const PROJECTS = [
     description:
       "Implemented Jenkins Pipeline for CI/CD of a Java application. Managed source code and versioning with GitHub. Deployed and managed Kubernetes setup using EKS and ArgoCD. Utilized Docker for containerization and Maven for building the app.",
     technologies: ["Jenkins", "GitHub", "EKS", "ArgoCD", "Docker", "Maven", "SonarQube"],
+    link: "https://github.com/GURUGASTGAR/register-app.git"
   },
 ];
 
