@@ -11,7 +11,7 @@ const Navbar = () => {
         <a className="cursor-pointer hover:text-blue-500" href="linkedin.com/in/guru-gastgar-67a125217/"><FaLinkedin /></a>
         <a className="cursor-pointer hover:text-pink-700" href="https://www.instagram.com/guru_gastgar/"><FaInstagram/></a>
         <a className="cursor-pointer hover:text-gray-700" href="https://twitter.com/GastgarGuru"><FaXTwitter/></a>
-        <a className="cursor-pointer hover:text-black hover:bg-white rounded-full" href="https://github.com/GURUGASTGAR"><FaGithub/></a>
+        <a className="cursor-pointer hover:text-black hover:bg-white rounded-full" href="https://github.com/gurug15"><FaGithub/></a>
       </div>
     </nav>
   )
