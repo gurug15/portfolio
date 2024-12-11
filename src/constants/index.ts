@@ -1,6 +1,6 @@
 import terraProject from "../assets/projects/terra.jpeg"
 import kubeProject from "../assets/projects/kubernetes.jpeg"
-import medProject from "../assets/projects/med.jpeg"
+import medProject from "../assets/projects/med.png"
 import medDevops from "../assets/projects/med-devops.png"
 import trendsProject from "../assets/projects/treds.jpeg"
 import awscert from "../assets/certificates/aws.png";
