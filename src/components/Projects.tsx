@@ -23,7 +23,7 @@ export default function Projects() {
                animate={{opacity:0,x:100}}
                transition={{duration:.8,delay:.2}}
                className="w-full max-w-xl lg:w-3/4">
-                   <h6 className="mb-2 font-semibold">{project.title}</h6>
+                   <h6 className="mb-2 font-semibold"><a  className="hover:text-blue-500" href={project.link}>{project.title}</a></h6>
                    <p className="mb-4 text-neutral-400">{project.description}</p>
                    <div className="flex flex-wrap">{project.technologies.map((item,idx)=>{
                        return <span key={idx} className="mr-2 mt-4 rounded-lg bg-neutral-900 px-2 py-1 text-sm font font-medium text-purple-800 ">{item}</span>
