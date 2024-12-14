@@ -6,6 +6,7 @@ import trendsProject from "../assets/projects/treds.jpeg"
 import awscert from "../assets/certificates/aws.png";
 import devopscert from "../assets/certificates/devops.png"
 import merncert from "../assets/certificates/mern.png"
+import sociobot from "../assets/projects/sociobot.png"
 
 export const HERO_CONTENT = `I am a passionate Software Developer with a knack for crafting robust and scalable applications. With almost a year of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, back-end technologies like Node.js, Prisma, PostgreSQL, and many DevOps tools. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -84,6 +85,14 @@ export const PROJECTS = [
     technologies: ["Jenkins", "GitHub", "EKS", "ArgoCD", "Docker", "Maven", "SonarQube"],
     link: "https://github.com/gurug15/register-app.git"
   },
+  {
+    title: "Sociobot-Telegram",
+    image: sociobot, // Replace with actual image path
+    description:
+      "Built an automated Telegram bot for generating social media content using Node.js and Telegraf. Incorporated AI models to craft contextually relevant posts based on user input. Managed scheduling and error handling with retry mechanisms. Ensured consistent deployment and development environments using Docker.",
+    technologies: ["React", "Framer", "Tailwind", "Generative AI", "Telegraf", "TypeScript"],
+    link: "https://github.com/gurug15/register-app.git"
+  }
 ];
 
 export const CONTACT = {
