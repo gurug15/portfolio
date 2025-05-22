@@ -3,6 +3,7 @@ import { AiOutlineKubernetes } from "react-icons/ai";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { DiDocker } from "react-icons/di";
 import { FaAws } from "react-icons/fa";
+import { FaJava } from "react-icons/fa";
 import { LiaJenkins } from "react-icons/lia";
 import { RiNodejsLine, RiReactjsLine } from "react-icons/ri";
 import { SiAnsible, SiExpress, SiMongodb, SiTerraform } from "react-icons/si";
@@ -36,6 +37,13 @@ export default function Technologies() {
         animate={{opacity:0,x:-100}}
         transition={{duration:1, delay:0.4}}
         className="flex flex-wrap items-center justify-center gap-4">
+            <motion.div 
+              variants={iconVariants(5)}
+              initial="initial"
+              animate="animate"
+              className="rounded-2xl border-4 border-neutral-800 p-4">
+                  <FaJava className="text-6xl text-white "/>
+              </motion.div>
               <motion.div 
               variants={iconVariants(2)}
               initial="initial"
