@@ -5,6 +5,8 @@ import { DiDocker } from "react-icons/di";
 import { FaAws } from "react-icons/fa";
 import { FaJava } from "react-icons/fa";
 import { LiaJenkins } from "react-icons/lia";
+import { SiCplusplus, SiMysql, SiTypescript } from "react-icons/si";
+
 import { RiNodejsLine, RiReactjsLine } from "react-icons/ri";
 import { SiAnsible, SiExpress, SiMongodb, SiTerraform } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -42,8 +44,16 @@ export default function Technologies() {
               initial="initial"
               animate="animate"
               className="rounded-2xl border-4 border-neutral-800 p-4">
-                  <FaJava className="text-6xl text-white "/>
+                  <FaJava className="text-6xl text-blue-400 "/>
               </motion.div>
+              <motion.div 
+              variants={iconVariants(5)}
+              initial="initial"
+              animate="animate"
+              className="rounded-2xl border-4 border-neutral-800 p-4">
+                  <SiCplusplus className="text-6xl text-blue-400 "/>
+              </motion.div>
+              
               <motion.div 
               variants={iconVariants(2)}
               initial="initial"
@@ -85,6 +95,20 @@ export default function Technologies() {
               animate="animate"
               className="rounded-2xl border-4 border-neutral-800 p-4">
                   <BiLogoPostgresql className="text-6xl text-sky-700"/>
+              </motion.div>
+              <motion.div 
+              variants={iconVariants(5)}
+              initial="initial"
+              animate="animate"
+              className="rounded-2xl border-4 border-neutral-800 p-4">
+                  <SiMysql className="text-6xl text-blue-400 "/>
+              </motion.div>
+              <motion.div 
+              variants={iconVariants(5)}
+              initial="initial"
+              animate="animate"
+              className="rounded-2xl border-4 border-neutral-800 p-4">
+                  <SiTypescript className="text-6xl text-blue-400 "/>
               </motion.div>
               <motion.div 
               variants={iconVariants(4)}
